@@ -28,7 +28,7 @@ computer and never changes your original photos.
 - [Regenerating the screenshots](#regenerating-the-screenshots)
 - [Known limitations](#known-limitations)
 - [Troubleshooting](#troubleshooting)
-- [Credits and licences](#credits-and-licences)
+- [Credits and licences](#credits-and-licences) (i-arrange is MIT licensed)
 
 ## Features
 
@@ -353,4 +353,6 @@ captured, and writes the images to `docs/screenshots`.
 - Built with [PySide6 / Qt](https://doc.qt.io/qtforpython/) (LGPL), [OpenCV](https://opencv.org/) (Apache 2.0),
   [Pillow](https://python-pillow.org/), [rawpy / LibRaw](https://github.com/letmaik/rawpy), [NumPy](https://numpy.org/)
   and [PyInstaller](https://pyinstaller.org/).
-- The project's own licence has not been chosen yet. Add a `LICENSE` file before publishing it for others to reuse.
+- i-arrange itself is released under the [MIT licence](LICENSE). The libraries above keep their own licences. If you
+  redistribute a built exe, it bundles Qt (LGPL) and the other libraries, so check that their terms suit how you share
+  it.
