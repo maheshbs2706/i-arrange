@@ -1,0 +1,6 @@
+opencv-python-headless<5
+numpy
+Pillow
+rawpy
+PySide6
+pyinstaller
